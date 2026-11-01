@@ -14,7 +14,8 @@
 @media (prefers-color-scheme:dark){:root{--bg:#1c0714;--fg:#f5e9ef;--muted:#c3a9b7;--accent:#e56fa9}}
 body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
 main{max-width:40rem;margin:0 auto;padding:32px 18px 56px}
-h1{font-size:1.6rem;line-height:1.25;margin:0 0 20px}
+h1{font-size:1.6rem;line-height:1.25;margin:0 0 20px;display:flex;align-items:center;gap:12px}
+h1 img{width:60px;height:auto;flex:none}
 p,li{margin:0 0 14px}
 a{color:var(--accent)}
 video{display:block;width:100%;max-width:360px;aspect-ratio:9/16;margin:0 auto 20px;border-radius:16px;background:#000}
@@ -23,7 +24,7 @@ nav{margin-top:28px;font-size:.95rem;color:var(--muted)}
 </head>
 <body>
 <main>
-<h1>ilai in one minute</h1>
+<h1><img src="idly.png" alt="" width="60" height="47">ilai in one minute</h1>
 <video controls playsinline preload="metadata" poster="poster.jpg">
 <source src="ilai-testers.mp4" type="video/mp4">
 <p>Your browser can’t play this video here. <a href="ilai-testers.mp4">Download it</a> (48 seconds, 15 MB).</p>
